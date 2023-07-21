@@ -1,0 +1,7 @@
+Project Description:
+An Open Source Library that helps anyone to Grow in the LifeStyke of Christ in any aspect of Life
+Features:
+ -AI chat go recommend books
+ -List of books 
+ -Checout books for download
+ -Rating 

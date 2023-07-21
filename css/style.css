@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #e1dcc5;
+    color:#333;
+}
+.border{
+    border: 1px solid;
+}
+
+header{
+    
+    background-color: #333333;
+    color: #fff;
+    
+}
+.header-wrapper{
+    width: 900px;
+    display: flex;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.banner{
+    width:50%;
+}
+.logo{
+    width: 25%;
+    padding: 5px;
+    text-transform: uppercase;;
+}
+.right-header{
+    width: 25%;
+    text-align: right;
+    padding:5px;
+}
+
+main{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    min-height: 200px;
+}
+.chat-wrapper{
+    width: 25%;
+    min-height: 200px;
+}
+.books-wrapper{
+    width: 75%;
+}
+.books-welcome, .books-trending, .books-list{
+    min-height: 150px;
+}
+
+#chat-response{
+    min-height: 500px;
+}
+.chat-input{
+    vertical-align: middle;
+    display: flex;
+    gap:5px;
+    padding:10px;
+}
+.chat-input button{
+    margin-bottom: 20px;
+    border: none;
+    height: 50px;
+
+}
+
+.chat-input textarea{
+    height: 50px;
+}
+.response{
+    min-height: 40px;
+    background-color: #1F2123;
+    color: #d9d9e3;
+    margin: 10px 0 10px 0;
+}
