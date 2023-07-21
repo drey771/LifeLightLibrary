@@ -1,3 +1,13 @@
+//Lessons:
+/**
+ * Variables
+ * Function
+ * DOM 
+ * Array
+ * 
+ * 
+ * /
+
 
 //Instructions
 /**
@@ -32,22 +42,43 @@ function typeEffect(element, text, speed) {
     }
     typeCharacter();
 
-    element.innerHTML +="<br>"
+    // element.innerHTML +="<br>"
   }
 
+  function ShowMessage(i){
+    chat_response.innerHTML +="<br>";
+    typeEffect(chat_response, first_response[i], 100);
+    chat_response.innerHTML +="<br>";
+  }
 
+ 
 
 //loop to display the message with delay
-// for(i=0;i<first_response.length;i++){
-
-
-    const typingSpeed = 100; // Adjust the speed in milliseconds (lower value = faster)
-
-    typeEffect(chat_response, first_response[0], typingSpeed);
-    // chat_response.innerHTML +="<br>";
-    typeEffect(chat_response, first_response[1], typingSpeed);
-    
-    
+let time = 4000;
+for(i=0;i<first_response.length;i++){ 
+   
+     time +=time;
+    // typeEffect(chat_response,"hello", typingSpeed);
+     setTimeout(ShowMessage,time,i) ;
     
 
-// }
+    //  setTimeout(ShowMessage,10000,1) ;
+
+
+    //  setTimeout(ShowMessage,20000,2) ;
+
+
+    //  setTimeout(ShowMessage,30000,3) ;
+
+    //  setTimeout(ShowMessage,40000,4) ;
+
+
+    //  setTimeout(ShowMessage,5000,2,100) ;
+
+    //  setTimeout(ShowMessage,5000,3,100) ;
+
+    //  setTimeout(ShowMessage,5000,4,100) ;
+
+    
+
+}
